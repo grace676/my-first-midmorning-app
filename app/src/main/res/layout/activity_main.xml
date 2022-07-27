@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:textStyle="bold|italic"
+        android:textColor="#FF9800"
+        android:gravity="center"
+        android:textSize="40sp"
+        android:id="@+id/mTvContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome to Android Programming" />
+
+    <TextView
+        android:textSize="25sp"
+        android:textColor="#03A9F4"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="16dp"
+        android:id="@+id/mTvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hello there, Android is the best in east and central Africa
+        Hello there, Android is the best in east and central Africa
+        Hello there, Android is the best in east and central Africa" />
+
+    <Button
+        android:textSize="20dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:backgroundTint="#4547"
+        android:id="@+id/BtnRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register" />
+
+    <Button
+        android:textSize="20sp"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="70dp"
+        android:backgroundTint="#289"
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login" />
+</LinearLayout>
